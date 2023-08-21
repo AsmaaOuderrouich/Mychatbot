@@ -1,0 +1,25 @@
+#:kivy 2.2.1
+<ChatbotLayout>:
+    orientation: 'vertical'
+    article_input: article_input
+    question_input: question_input
+    answer_label: answer_label
+
+    TextInput:
+        id: article_input
+        hint_text: 'Entrez l\'article'
+        multiline: True
+
+    TextInput:
+        id: question_input
+        hint_text: 'Posez une question'
+
+    Label:
+        id: answer_label
+        text: ''
+        size_hint_y: 0.3
+
+    Button:
+        text: 'Obtenir Réponse'
+        size_hint_y: 0.2
+        on_release: root.get_answer(self)

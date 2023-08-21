@@ -6,12 +6,12 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy
+requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow
 orientation = portrait
 
 # osx settings
 
-osx.python_version = 3
+osx.python_version = 3.7.6
 osx.kivy_version = 2.2.1
 
 # android settings

@@ -6,7 +6,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow, chatbot.py
+requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow, chatbot
 orientation = portrait
 
 # osx settings
